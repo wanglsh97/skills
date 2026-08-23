@@ -1,4 +1,4 @@
-# ls-skills
+# skills
 
 个人开发工作流中沉淀的 Codex Skills 集合。
 
@@ -7,25 +7,25 @@
 交互式选择并安装 Skill：
 
 ```bash
-npx skills add wanglsh97/ls-skills
+npx skills add wanglsh97/skills
 ```
 
 安装指定 Skill：
 
 ```bash
-npx skills add wanglsh97/ls-skills --skill <skill-name>
+npx skills add wanglsh97/skills --skill <skill-name>
 ```
 
 将仓库中的全部 Skill 全局安装到 Codex：
 
 ```bash
-npx skills add wanglsh97/ls-skills --skill '*' --agent codex --global --yes
+npx skills add wanglsh97/skills --skill '*' --agent codex --global --yes
 ```
 
 查看仓库中可安装的 Skill：
 
 ```bash
-npx skills add wanglsh97/ls-skills --list
+npx skills add wanglsh97/skills --list
 ```
 
 查看或更新已安装的 Skill：
