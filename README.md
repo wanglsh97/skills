@@ -58,28 +58,6 @@ npx skills update
 └── AGENTS.md            # 仓库维护约定
 ```
 
-## 新增 skill
-
-1. 在 `skills/` 下创建与 skill 名称一致的目录（仅使用小写字母、数字和连字符）。
-2. 添加 `SKILL.md`，其 YAML frontmatter 只包含 `name` 和 `description`。
-3. 按需添加 `agents/openai.yaml`、`scripts/`、`references/` 或 `assets/`。
-4. 运行 `./scripts/validate.sh`。
-5. 本地检查发现结果：`npx skills add . --list`。
-6. 本地试装：`npx skills add . --skill <skill-name>`。
-
-最小示例：
-
-```markdown
----
-name: example-skill
-description: 简洁说明该 skill 做什么，以及应在什么请求或场景下使用。
----
-
-# Example Skill
-
-使用祈使句写明执行步骤、判断标准和必要约束。
-```
-
 ## 许可
 
 [MIT](LICENSE)
