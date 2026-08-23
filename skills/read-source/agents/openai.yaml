@@ -1,0 +1,4 @@
+interface:
+  display_name: "Read Source"
+  short_description: "基于指定 Git tag 追踪调用与数据流，并解释代码行为"
+  default_prompt: "使用 $read-source 基于 tag v1.0.0 梳理这个代码库的核心执行流程。"
