@@ -1,4 +1,4 @@
 interface:
   display_name: "Read Source"
-  short_description: "默认基于仓库最新 Git tag 分阶段精读并复核源码逻辑"
-  default_prompt: "使用 $read-source 基于仓库最新 tag 分阶段学习并复核这个代码库。"
+  short_description: "基于最新稳定源码快照分阶段精读并复核源码逻辑"
+  default_prompt: "使用 $read-source 分阶段学习并复核这个代码库。"
