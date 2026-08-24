@@ -1,4 +1,4 @@
 interface:
   display_name: "Read Source"
-  short_description: "沿由浅入深的学习路径分阶段精读并复核源码逻辑"
-  default_prompt: "使用 $read-source 按由浅入深的学习路径分阶段学习并复核这个代码库。"
+  short_description: "先定位项目类型，再按类型精读核心能力并深入架构"
+  default_prompt: "使用 $read-source 先定位这个仓库的项目类型，再按类型精读核心能力并学习架构。"
