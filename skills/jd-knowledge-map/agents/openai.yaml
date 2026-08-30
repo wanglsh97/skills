@@ -1,0 +1,4 @@
+interface:
+  display_name: "岗位知识图谱"
+  short_description: "从文本或截图形式的招聘岗位描述提炼能力，生成分层知识点大纲图"
+  default_prompt: "使用 $jd-knowledge-map 解析这份文本或截图形式的招聘岗位描述，并生成分层知识点大纲图。"
