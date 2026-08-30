@@ -1,0 +1,4 @@
+interface:
+  display_name: "最新知识"
+  short_description: "获取并解读近期技术热点、AI 官方更新与热门开源项目"
+  default_prompt: "使用 $latest-knowledge 获取并总结我关心领域的最新知识。"
